@@ -1,0 +1,52 @@
+body{
+    font-family: 'roboto';
+}
+
+.cabecalho{ 
+    background-color:#0A0909;
+    height: 200px;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    height: 132px;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 640px;
+}
+
+.roteiro{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    border: none transparent;
+    background-color: transparent;
+}
+
+.pointTour{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    border: none transparent;
+    background-color: transparent;
+}
+
+.roteiro:hover,
+.pointTour:hover{
+    border-bottom: 4px white solid;
+}
+
+.links{
+    text-decoration: none;
+    color: #fff;
+}

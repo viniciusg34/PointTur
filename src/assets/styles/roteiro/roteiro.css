@@ -1,0 +1,130 @@
+.centralizarRoteiroMain{
+    display: flex;
+    justify-content: center;
+    background: #F3F3F3;
+}
+
+.roteiroMain{
+    width: 80vw;
+}
+
+.centralizarRoteiro{
+    display: flex;
+    justify-content: center;
+}
+
+.inputsRoteiro{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputsPadrao{
+    max-width: 1138px;
+    height: 63px;
+    border-radius: 10px;
+    border: none;
+}
+
+.inputsGrande{
+    max-width: 1138px;
+    height: 188px;
+    border-radius: 10px;
+    border: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.LabelsRoteiro{
+    margin-top: 39px;
+    margin-bottom: 11px;
+}
+
+.cadastrar{
+    margin-top: 68px;
+    margin-bottom: 103px;
+    width: 248px;
+    height: 45px;
+    background: #F3F3F3;
+    border: 2px solid #416AFB;
+    border-radius: 16px;
+}
+
+.cardsRoteiro{
+    display: flex;
+    margin-bottom: 71px;
+}
+
+.quadradoAzul{
+    width: 324px;
+    height: 326px;
+    background: #4776E6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFF;
+}
+
+.quadradoBranco{
+    width: 793px;
+    height: 326px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 21px;
+}
+
+.pRoteiro{
+
+    width: 710px;
+    height: 203px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.alinharPRoteiro{
+    display: flex;
+    justify-content: center;
+}
+
+.botaoEditar{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    width: 157px;
+    height: 40px;
+    background: #F3F3F3;
+    border: 2px solid #416AFB;
+    border-radius: 16px;
+    margin-left: 43px;
+}
+
+.botaoExcluir{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    width: 157px;
+    height: 40px;
+    background: #416AFB;
+    border: 2px solid #416AFB;
+    border-radius: 16px;
+    margin-left: 31px;
+    color: #FFF;
+}
+
+.botaoSaibaMais{
+    width: 223px;
+    height: 40px;
+    background: #F3F3F3;
+    border: 2px solid #416AFB;
+    border-radius: 16px;
+    margin-top: 20px;
+    margin-left: 550px;
+}

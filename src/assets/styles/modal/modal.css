@@ -1,0 +1,97 @@
+.centralizarModal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 7vh;
+    left: 29vw;
+}
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 776px;
+    background-color: #E5E5E5;
+}
+
+.faixaAzul{
+    width: 600px;
+    height: 73px;
+    left: 0px;
+    top: 0px;
+    background: #4776E6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.fechar{
+    margin-right: 40px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.faixaTituloModal{
+    margin-top: 76px;
+    width: 450px;
+    height: 64px;
+    background: #4776E6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloModal{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.local{
+    margin-top: 48px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+    max-width: 447px;
+}
+
+.descricao{
+    margin-top: 78px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+    max-width: 450px;;
+}
+
+.horario{
+    margin-top: 29px;
+    width: 450px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: flex;
+}
+
+.escurecer{
+    opacity: 0.85;
+    background-color: #000000;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
